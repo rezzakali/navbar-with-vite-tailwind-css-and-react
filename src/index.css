@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply bg-[#0f172a] text-[#677388];
+  }
+  h1 {
+    font-family: Norican, cursive;
+  }
+  li {
+    @apply px-5 py-2 rounded hover:bg-[#1f2937] hover:cursor-pointer hover:text-white;
+  }
+  button {
+    @apply bg-[#38bdf8] text-white rounded-md px-4 font-bold hover:bg-[#38bff8e5];
+  }
+}
